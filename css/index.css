@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+	color:white;
+	font-family: helvetica;
+}
+
+h1{
+    font-size:4em;
+}
+
+p{
+   font-size:1.4em;
+   font-style:italic;
+}
+
+.quotes{
+	margin-top: 4%;
+	margin-bottom:3%;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-color:white;
+	border-style:solid;
+	border-radius: 2%;
+	padding : 2%;
+	height:auto;
+	font-size: 2.2em;
+}
+
+.quote{
+	font-size:2.2em;
+}
+
+.author{
+	font-size: 1.2em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px)
+{
+.quotes{
+ width:90%;
+	}
+.quote{
+ font-size:1em;
+	}
+.author{
+	font-size:0.8em;
+}
+.btn{
+	width:100%;
+	font-size:1.2em;
+}	
+}
+
