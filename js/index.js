@@ -1,11 +1,15 @@
 $(document).ready(function() {
 
     function getRandomColor() {
-        var letters = '0123456789ABCDEF';
+        var letters = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
         var color = '#';
+        
         for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
+        	num=Math.floor(Math.random() * 16);
+            color += letters[num];
         }
+        console.log(letters[num]);
+        console.log(color);
         return color;
     }
 
@@ -14,8 +18,5 @@ $(document).ready(function() {
         $('.quotes').css("background-color","black");
         $('.quotes').css("color","white");
     });
-
-
-
 
 });
