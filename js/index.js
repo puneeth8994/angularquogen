@@ -11,6 +11,8 @@ $(document).ready(function() {
 
     $("#newQuote").click(function() {
         $('body').css("background-color", getRandomColor());
+        $('.quotes').css("background-color","black");
+        $('.quotes').css("color","white");
     });
 
 
